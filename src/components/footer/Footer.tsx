@@ -12,7 +12,7 @@ const Footer = () => {
             width={50}
             height={50}
           />
-          <span className="ml-1 text-xl font-semibold align-middle">Psico. Zully Diaz</span>
+          <span className="text-xl font-semibold">Zully Diaz</span>
         </div>
         <div className="flex space-x-6">
           <a
