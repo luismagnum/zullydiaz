@@ -37,7 +37,7 @@ const Frecuentes = () => {
   ];
 
   return (
-    <section className="bg-white p-6 md:p-12 mx-auto max-w-4xl rounded-lg">
+    <section className="bg-white p-6 md:p-12 mx-auto max-w-4xl rounded-lg mb-8">
       <h2 className="text-3xl font-bold text-gray-800 mb-10 text-center">Preguntas frecuentes</h2>
       <div className="flex flex-col md:flex-row md:space-x-12">
         <div className="md:w-1/2 lg:w-1/3 mb-6 md:mb-0">
@@ -47,8 +47,8 @@ const Frecuentes = () => {
             <Image
               src="/zully1.png"
               alt="Imagen de contacto"
-              width={50}
-              height={50}
+              width={70}
+              height={70}
               className="rounded-full"
             />
           </div>

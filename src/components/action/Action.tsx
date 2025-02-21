@@ -12,7 +12,7 @@ const Action = () => {
           <a 
           href="https://wa.me/542984792488?text=Hola quiero agendar una cita"
           className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
-          Agende su cita
+          Agenda un turno
           </a>
         </div>
       </section>

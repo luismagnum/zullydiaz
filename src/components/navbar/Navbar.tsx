@@ -61,7 +61,7 @@ const Navbar = () => {
                   Contacto
                 </Link>
                 <span className='flex text-center mx-auto'>
-                <Image src='/psico.png' alt='psico' width={30} height={30}/>
+                <Image src='/psico.png' alt='psico' width={40} height={40}/>
                 </span>
         </div>
         </div>

@@ -30,7 +30,7 @@ const Psychotherapy = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Agende su cita
+          Agenda un turno
         </a>
       </div>
     </section>

@@ -1,47 +1,46 @@
-import { FaFacebookF, FaInstagram } from 'react-icons/fa';
-import Image from 'next/image';
+import { FaWhatsapp, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
-        <div className="flex items-center mb-4 md:mb-0">
-          <Image
-            src="/psico.png"
-            alt="Logo"
-            width={50}
-            height={50}
-          />
-          <span className="text-xl font-semibold">Zully Diaz</span>
+    <footer className="bg-gray-900 text-gray-300 py-10 px-6">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        <div className="mb-6 md:mb-0">
+        <h2 className="text-2xl font-semibold text-white">Zully Diaz</h2>
         </div>
-        <div className="flex space-x-6">
-          <a
-            href="https://www.facebook.com/tuperfil"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition"
-          >
-            <FaFacebookF size={24} />
-          </a>
-          <a
-            href="https://www.instagram.com/tuperfil"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition"
-          >
-            <FaInstagram size={24} />
-          </a>
+        <div className="mb-6 md:mb-0">
+          <h3 className="text-lg font-semibold text-white">Enlaces</h3>
+          <ul className="mt-2 space-y-2">
+            <li>
+              <a href="#mett" className="hover:text-gray-100 transition">Sobre Mi</a>
+            </li>
+            <li>
+              <a href="#psychotherapy" className="hover:text-gray-100 transition">Terapias</a>
+            </li>
+            <li>
+              <a href="#action" className="hover:text-gray-100 transition">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-lg font-semibold text-white">Síguenos</h3>
+          <div className="flex justify-center md:justify-start space-x-4 mt-2">
+            <a href="https://wa.me/542984792488" target="_blank" rel="noopener noreferrer" className="text-green-500 text-2xl hover:text-green-400 transition">
+              <FaWhatsapp />
+            </a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-2xl hover:text-blue-400 transition">
+              <FaFacebookF />
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-pink-500 text-2xl hover:text-pink-400 transition">
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
-      <div className="container mx-auto mt-4 px-4 text-center md:text-left">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Lic. Zully Díaz. Todos los derechos reservados.
-          </p>
-          <p className="text-sm text-gray-400">
-            Desarrollado por Luis E. Díaz
-          </p>
-        </div>
+
+      <div className="border-t border-gray-700 mt-6 pt-4 text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} Zully Diaz - Todos los derechos reservados.
+        <p>Devs Luis E. Diaz</p>
       </div>
     </footer>
   );

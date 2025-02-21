@@ -14,7 +14,7 @@ const Direccion = () => {
             </li>
             <li className="flex items-center text-gray-600">
               <FaEnvelope className="text-blue-500 mr-3" />
-              <span>correo@ejemplo.com</span>
+              <span>zullydiaz@gmail.com</span>
             </li>
             <li className="flex items-center text-gray-600">
               <FaMapMarkerAlt className="text-blue-500 mr-3" />
@@ -39,7 +39,7 @@ const Direccion = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Agende su cita
+          Agenda un turno
         </a>
       </div>
     </section>
