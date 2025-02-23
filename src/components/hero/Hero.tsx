@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:w-1/2 flex justify-center">
+        <div data-aos="zoom-in-up" className="md:w-1/2 flex justify-center">
           <Image
             src='/zully1.png'
             alt="Psicóloga en consulta"
