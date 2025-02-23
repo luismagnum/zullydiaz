@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Direccion = () => {
   return (
-    <section className="bg-white p-6 md:p-12  mt-10 rounded-lg">
+    <section className="bg-white p-6 md:p-2  mt-10 rounded-lg">
       <div className="flex flex-col items-center md:flex-row md:justify-center md:space-x-12">
         <div className="md:w-1/2 lg:w-1/3 mb-6 md:mb-10">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Dirección de mi Consultorio</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">Dirección de mi Consultorio</h2>
           <ul className="space-y-8">
             <li className="flex items-center text-gray-600">
               <FaPhoneAlt className="text-blue-500 mr-3" />

@@ -11,7 +11,7 @@ const Psychotherapy = () => {
   ];
 
   return (
-    <section className="py-12 px-12 text-center">
+    <section className="py-12 px-16 text-center">
       <h2 className="text-3xl text-gray-800 font-bold mb-8">¿Cómo la psicoterapia te puede ayudar?</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-10">
         {benefits.map((benefit, index) => (

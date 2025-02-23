@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-2 md:p-4 md:px-24 px-5 bg-transparent shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
+        <div className='flex flex-row justify-between p-2 md:p-4 md:px-32 px-5 bg-transparent shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                 <Image src='/psico.png' alt='psico' width={60} height={60}/>
@@ -26,16 +26,16 @@ const Navbar = () => {
                 <h1 className='text-gray-800 text-xl md:text-2xl font-bold ml-6'>Psicologo Clinico</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-sky-900 text-xl ml-60 font-bold gap-6'>
-                <Link href='/' className='hover:text-teal-500 transition-all cursor-pointer'>
+                <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer'>
                  Home
                  </Link>
-                <Link href='#mett' className='hover:text-teal-500 transition-all cursor-pointer'>
+                <Link href='#mett' className='hover:text-blue-700 transition-all cursor-pointer'>
                  Sobre Mi
                  </Link>
-                <Link href='#psychotherapy' className='hover:text-teal-500 transition-all cursor-pointer'>
+                <Link href='#psychotherapy' className='hover:text-blue-700 transition-all cursor-pointer'>
                  Psicoterapia
                 </Link>
-                <Link href='#action' className='hover:text-teal-500 transition-all cursor-pointer'>
+                <Link href='#action' className='hover:text-blue-700 transition-all cursor-pointer'>
                  Contacto
                 </Link>
             </nav>
@@ -48,16 +48,16 @@ const Navbar = () => {
             </div>
         </div>
         <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-sky-900 left-0 top-14 font-semibold text-2xl text-center pt-8 pb-6 gap-1 w-full h-60 transition-transform duration-300 z-50`}>
-        <Link href='/' className='hover:text-teal-500 transition-all cursor-pointer' onClick={closeMenu}>
+        <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
                  Home
                  </Link>
-                 <Link href='#mett' className='hover:text-teal-500 transition-all cursor-pointer' onClick={closeMenu}>
+                 <Link href='#mett' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
                  Sobre Mi 
                  </Link>
-                <Link href='#psychotherapy' className='hover:text-teal-500 transition-all cursor-pointer' onClick={closeMenu}>
+                <Link href='#psychotherapy' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
                  Psicoterapia
                 </Link>
-                <Link href='#action' className='hover:text-teal-500 transition-all cursor-pointer' onClick={closeMenu}>
+                <Link href='#action' className='hover:text-blue-700 transition-all cursor-pointer' onClick={closeMenu}>
                   Contacto
                 </Link>
                 <span className='flex text-center mx-auto'>
