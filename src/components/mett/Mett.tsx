@@ -37,10 +37,10 @@ const Meet= () => {
   
           <div className="lg:w-1/2 flex justify-center">
             <Image
-            src="/zully1.png"
+            src="/zully2.png"
             alt="Psicóloga"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             className="object-cover rounded-lg"
             />
           </div>

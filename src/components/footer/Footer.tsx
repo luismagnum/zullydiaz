@@ -28,10 +28,10 @@ const Footer = () => {
             <a href="https://wa.me/542984792488" target="_blank" rel="noopener noreferrer" className="text-green-500 text-2xl hover:text-green-400 transition">
               <FaWhatsapp />
             </a>
-            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-2xl hover:text-blue-400 transition">
+            <a href="#home" className="text-blue-600 text-2xl hover:text-blue-400 transition">
               <FaFacebookF />
             </a>
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-pink-500 text-2xl hover:text-pink-400 transition">
+            <a href="#home" className="text-pink-500 text-2xl hover:text-pink-400 transition">
               <FaInstagram />
             </a>
           </div>

@@ -24,12 +24,13 @@ const Hero = () => {
           </div>
         </div>
 
-        <div data-aos="zoom-in-up" className="md:w-1/2 flex justify-center">
+        <div data-aos="zoom-in-up" className="md:w-1/2 flex justify-center mb-6">
           <Image
-            src='/zully1.png'
+            src='/zully.jpg'
             alt="Psicóloga en consulta"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
+            priority={true}
             className="rounded-lg"
           />
         </div>

@@ -47,8 +47,8 @@ const Frecuentes = () => {
             <Image
               src="/zully1.png"
               alt="Imagen de contacto"
-              width={70}
-              height={70}
+              width={60}
+              height={60}
               className="rounded-full"
             />
           </div>

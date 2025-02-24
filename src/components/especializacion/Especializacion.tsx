@@ -6,7 +6,7 @@ const temas = [
     descripcion: 'Enfocada en modificar patrones de pensamiento y comportamiento para mejorar la salud mental.',
   },
   {
-    titulo: 'Terapia Cognitiva Conceptual en Niños y Adolescentes',
+    titulo: 'Terapia Cognitiva Conductual en Niños y Adolescentes',
     descripcion: 'Adaptada para jóvenes, aborda desafíos emocionales y conductuales específicos de estas edades.',
   },
   {
