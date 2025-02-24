@@ -23,7 +23,7 @@ const Navbar = () => {
                 <span>
                 <Image src='/psico.png' alt='psico' width={60} height={60}/>
                 </span>
-                <h1 className='text-gray-800 text-xl md:text-2xl font-bold ml-6'>Psicologo Clinico</h1>
+                <h1 className='text-gray-800 text-xl md:text-2xl font-bold ml-6'>Psicologa Clinica</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-sky-900 text-xl ml-60 font-bold gap-6'>
                 <Link href='/' className='hover:text-blue-700 transition-all cursor-pointer'>

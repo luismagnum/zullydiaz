@@ -12,7 +12,7 @@ const Frecuentes = () => {
   const faqs = [
     {
       question: '¿Usted atiende por obra social?',
-      answer: 'No, por ahora no trabajo con ninguna obra social.',
+      answer: 'No, por ahora no trabajo con ninguna obra social, pero se realiza factura para el reintegro en la mutual.',
     },
     {
       question: '¿Cómo funciona la psicoterapia?',
@@ -20,7 +20,7 @@ const Frecuentes = () => {
     },
     {
       question: '¿Cuánto tiempo dura una psicoterapia?',
-      answer: 'La duración varía según las necesidades individuales, pero generalmente las sesiones son semanales y duran alrededor de 50 minutos.',
+      answer: 'La duración varía según las necesidades individuales, pero generalmente las sesiones son semanales y duran alrededor de 45 minutos.',
     },
     {
       question: '¿Cómo escoger una psicóloga adecuada para mí?',

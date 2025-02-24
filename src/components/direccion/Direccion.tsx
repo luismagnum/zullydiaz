@@ -14,7 +14,7 @@ const Direccion = () => {
             </li>
             <li className="flex items-center text-gray-600">
               <FaEnvelope className="text-blue-500 mr-3" />
-              <span>zullydiaz@gmail.com</span>
+              <span>zullycarolinadiazmoreno@gmail.com</span>
             </li>
             <li className="flex items-center text-gray-600">
               <FaMapMarkerAlt className="text-blue-500 mr-3" />
@@ -32,7 +32,7 @@ const Direccion = () => {
           />
         </div>
       </div>
-      <div className="mt-8 flex justify-center">
+      <div className="mt-10 flex justify-center">
         <a
           href="https://wa.me/542984792488?text=Hola quiero agendar una cita" 
           className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"

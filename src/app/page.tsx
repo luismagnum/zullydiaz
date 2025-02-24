@@ -11,6 +11,7 @@ import Boton from "../components/Boton";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Especializacion from "../components/especializacion/Especializacion";
 
 export default function Home() {
   useEffect(() => {
@@ -37,6 +38,7 @@ export default function Home() {
       <div id="mett">
       <Mett />
       </div>
+      <Especializacion />
       <Direccion />
       <Frecuentes />
       <Footer />
