@@ -6,7 +6,6 @@ import Action from "../components/action/Action";
 import Mett from "../components/mett/Mett";
 import Footer from "../components/footer/Footer";
 import Direccion from "../components/direccion/Direccion";
-import Ubicacion from "../components/ubicacion/Ubicacion";
 import Frecuentes from "../components/frecuentes/Frecuentes";
 import Boton from "../components/Boton";
 import AOS from "aos";
@@ -41,7 +40,6 @@ export default function Home() {
       </div>
       <Especializacion />
       <Direccion />
-      <Ubicacion />
       <Frecuentes />
       <Footer />
       <Boton />
