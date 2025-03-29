@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["greek"] });
 
 export const metadata: Metadata = {
   title: "Psico.Clinico Zully Diaz",
-  description: "Psicologo Clinico",
+  description: "Psicologa Clinica",
 };
 
 export default function RootLayout({
