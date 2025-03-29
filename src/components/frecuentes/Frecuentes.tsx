@@ -58,7 +58,7 @@ const Frecuentes = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contactame
+            Contactarme
           </a>
         </div>
         <div className="md:w-1/2 lg:w-2/3">
