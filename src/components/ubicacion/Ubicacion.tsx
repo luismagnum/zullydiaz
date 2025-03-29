@@ -7,7 +7,7 @@ const Ubicacion = () => {
       <div className="max-w-5xl mx-auto text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
           <FaMapMarkerAlt className="text-red-500 text-3xl" />
-          <h2 className="text-3xl font-bold text-gray-800">Ubicación del Consultorio</h2>
+          <h2 className="text-3xl font-bold text-gray-800">Ubicacion del Consultorio</h2>
         </div>
 
         <div className="aspect-w-16 aspect-h-9 w-full rounded-xl overflow-hidden shadow-xl border border-gray-200">
