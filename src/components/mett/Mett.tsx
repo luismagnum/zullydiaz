@@ -3,7 +3,8 @@ import Image from "next/image";
 const Meet= () => {
     return (
       <section className="py-12 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">Conozca a su Psicóloga</h2>
+        <h1 className="text-3xl font-bold text-gray-800 text-center mb-8">Licenciada Zully Diaz</h1>
+        <h2 className="text-2xl font-bold text-gray-800 text-center mb-8">Conozca a su Psicóloga</h2>
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           <div className="relative lg:w-1/2">
             <div className="absolute left-0 top-0 h-full w-1 bg-blue-600"></div>

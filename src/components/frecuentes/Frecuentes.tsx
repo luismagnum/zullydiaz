@@ -49,7 +49,7 @@ const Frecuentes = () => {
               alt="Imagen de contacto"
               width={60}
               height={60}
-              className="rounded-full"
+              className="rounded-full ml-4"
             />
           </div>
           <a
@@ -58,7 +58,7 @@ const Frecuentes = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contactarme
+            Contactame
           </a>
         </div>
         <div className="md:w-1/2 lg:w-2/3">
