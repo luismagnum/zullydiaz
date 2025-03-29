@@ -24,7 +24,7 @@ const Frecuentes = () => {
     },
     {
       question: '¿Cómo escoger una psicóloga adecuada para mí?',
-      answer: 'Es importante sentirte cómodo y comprendido. Te recomiendo una consulta inicial para evaluar si conectamos bien.',
+      answer: 'Lo fundamental es que te sientas escuchado y en confianza. Una primera sesión puede ayudarte a ver si hay una buena conexión.',
     },
     {
       question: '¿La psicoterapia es solo para problemas mentales graves?',
